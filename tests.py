@@ -40,6 +40,12 @@ class DataTest(CourtsDBTestCase):
             # Congress abolished the District's Criminal Court in the act
             # approved March 3, 1863 (12 Stat. 762).
             "dccrimct": "1863-03-02",
+            # The Circuit Court merged into the Court of Common Pleas
+            # effective December 31, 1974.
+            "conncirct": "1974-12-30",
+            # The Court of Common Pleas merged into the Superior Court
+            # effective July 1, 1978.
+            "conncpct": "1978-06-30",
         }
         by_id = {court["id"]: court for court in self.courts}
         for court_id, expected_end in expected_end_dates.items():
