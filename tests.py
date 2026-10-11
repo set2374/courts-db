@@ -25,6 +25,29 @@ class CourtsDBTestCase(TestCase):
 class DataTest(CourtsDBTestCase):
     """Data tests are used to confirm our data set is functional."""
 
+    def test_restructured_state_courts_have_historical_end_dates(self):
+        """Renamed or consolidated courts must not remain active forever."""
+        expected_end_dates = {
+            # Vermont Act 154 consolidated the District Court into the
+            # unified Superior Court on July 1, 2010.
+            "vtdistct": "2010-06-30",
+            # West Virginia HB 2447 renamed the Court of Claims and clarified
+            # that its commissioners are not judicial officers on July 7, 2017.
+            "wvctcl": "2017-07-06",
+        }
+        by_id = {court["id"]: court for court in self.courts}
+        for court_id, expected_end in expected_end_dates.items():
+            with self.subTest(court_id=court_id):
+                self.assertEqual(
+                    by_id[court_id]["dates"],
+                    [
+                        {
+                            "start": by_id[court_id]["dates"][0]["start"],
+                            "end": expected_end,
+                        }
+                    ],
+                )
+
     def test_unicode_handling(self):
         """Do we handle regex matching with accents or other non-ascii?"""
         sample_text = "Tribunal Dé Apelaciones De Puerto Rico"
