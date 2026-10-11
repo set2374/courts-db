@@ -37,6 +37,9 @@ class DataTest(CourtsDBTestCase):
             # Louisiana's state judiciary superseded the Superior Court of the
             # Territory of Orleans when statehood began on April 30, 1812.
             "lasuperct": "1812-04-29",
+            # Congress abolished the District's Criminal Court in the act
+            # approved March 3, 1863 (12 Stat. 762).
+            "dccrimct": "1863-03-02",
         }
         by_id = {court["id"]: court for court in self.courts}
         for court_id, expected_end in expected_end_dates.items():
@@ -53,6 +56,10 @@ class DataTest(CourtsDBTestCase):
         self.assertEqual(
             by_id["lasuperct"]["dates"],
             [{"start": "1804-10-01", "end": "1812-04-29"}],
+        )
+        self.assertEqual(
+            by_id["dccrimct"]["dates"],
+            [{"start": "1838-07-07", "end": "1863-03-02"}],
         )
 
     def test_unicode_handling(self):
