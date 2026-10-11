@@ -79,6 +79,23 @@ class DataTest(CourtsDBTestCase):
                     matches = find_court_by_id(reference)
                     self.assertGreater(len(matches), 0, "No court found")
 
+    def test_texas_courts_of_appeals_source_ids(self):
+        """Native Texas appellate source ids resolve to the aggregate court."""
+        expected_ids = {f"txctapp{district}" for district in range(1, 16)}
+        matches = {
+            court["id"]: court
+            for court_id in expected_ids
+            for court in find_court_by_id(court_id)
+        }
+        self.assertEqual(set(matches), expected_ids)
+        for court_id, court in matches.items():
+            with self.subTest(court_id=court_id):
+                self.assertEqual(court.get("parent"), "texapp")
+        self.assertEqual(
+            matches["txctapp15"]["dates"],
+            [{"start": "2024-09-01", "end": None}],
+        )
+
     def test_appeal_to_courts(self):
         """Can we find the appeal_to court"""
 
