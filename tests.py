@@ -46,6 +46,12 @@ class DataTest(CourtsDBTestCase):
             # The Court of Common Pleas merged into the Superior Court
             # effective July 1, 1978.
             "conncpct": "1978-06-30",
+            # Delaware transferred General Sessions jurisdiction to the
+            # reorganized Superior Court effective May 14, 1951.
+            "delgensess": "1951-05-13",
+            # Delaware transferred the Orphans' Court's jurisdiction to
+            # Chancery and Superior Court effective July 1, 1970.
+            "delorphct": "1970-06-30",
         }
         by_id = {court["id"]: court for court in self.courts}
         for court_id, expected_end in expected_end_dates.items():
