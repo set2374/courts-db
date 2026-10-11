@@ -63284,6 +63284,426 @@
         "type": "appellate"
     },
     {
+        "case_types": [],
+        "citation_string": "Tex. App.",
+        "court_url": "https://www.txcourts.gov/1stcoa/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Texas Court of Appeals, 1st District (Houston)",
+            "First Court of Appeals, Houston, Texas"
+        ],
+        "id": "txctapp1",
+        "jurisdiction": "Tex. App.",
+        "level": "iac",
+        "location": "Texas",
+        "name": "Texas First Court of Appeals",
+        "name_abbreviation": null,
+        "parent": "texapp",
+        "regex": [
+            "Texas Court of Appeals, 1(?:st|nd|rd|th) District(?: \\([^\\)]+\\))?",
+            "First Court of Appeals(?:, [^,]+)?, Texas"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Tex. App.",
+        "court_url": "https://www.txcourts.gov/2ndcoa/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Texas Court of Appeals, 2nd District (Fort Worth)",
+            "Second Court of Appeals, Fort Worth, Texas"
+        ],
+        "id": "txctapp2",
+        "jurisdiction": "Tex. App.",
+        "level": "iac",
+        "location": "Texas",
+        "name": "Texas Second Court of Appeals",
+        "name_abbreviation": null,
+        "parent": "texapp",
+        "regex": [
+            "Texas Court of Appeals, 2(?:st|nd|rd|th) District(?: \\([^\\)]+\\))?",
+            "Second Court of Appeals(?:, [^,]+)?, Texas"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Tex. App.",
+        "court_url": "https://www.txcourts.gov/3rdcoa/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Texas Court of Appeals, 3rd District (Austin)",
+            "Third Court of Appeals, Austin, Texas"
+        ],
+        "id": "txctapp3",
+        "jurisdiction": "Tex. App.",
+        "level": "iac",
+        "location": "Texas",
+        "name": "Texas Third Court of Appeals",
+        "name_abbreviation": null,
+        "parent": "texapp",
+        "regex": [
+            "Texas Court of Appeals, 3(?:st|nd|rd|th) District(?: \\([^\\)]+\\))?",
+            "Third Court of Appeals(?:, [^,]+)?, Texas"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Tex. App.",
+        "court_url": "https://www.txcourts.gov/4thcoa/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Texas Court of Appeals, 4th District (San Antonio)",
+            "Fourth Court of Appeals, San Antonio, Texas"
+        ],
+        "id": "txctapp4",
+        "jurisdiction": "Tex. App.",
+        "level": "iac",
+        "location": "Texas",
+        "name": "Texas Fourth Court of Appeals",
+        "name_abbreviation": null,
+        "parent": "texapp",
+        "regex": [
+            "Texas Court of Appeals, 4(?:st|nd|rd|th) District(?: \\([^\\)]+\\))?",
+            "Fourth Court of Appeals(?:, [^,]+)?, Texas"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Tex. App.",
+        "court_url": "https://www.txcourts.gov/5thcoa/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Texas Court of Appeals, 5th District (Dallas)",
+            "Fifth Court of Appeals, Dallas, Texas"
+        ],
+        "id": "txctapp5",
+        "jurisdiction": "Tex. App.",
+        "level": "iac",
+        "location": "Texas",
+        "name": "Texas Fifth Court of Appeals",
+        "name_abbreviation": null,
+        "parent": "texapp",
+        "regex": [
+            "Texas Court of Appeals, 5(?:st|nd|rd|th) District(?: \\([^\\)]+\\))?",
+            "Fifth Court of Appeals(?:, [^,]+)?, Texas"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Tex. App.",
+        "court_url": "https://www.txcourts.gov/6thcoa/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Texas Court of Appeals, 6th District (Texarkana)",
+            "Sixth Court of Appeals, Texarkana, Texas"
+        ],
+        "id": "txctapp6",
+        "jurisdiction": "Tex. App.",
+        "level": "iac",
+        "location": "Texas",
+        "name": "Texas Sixth Court of Appeals",
+        "name_abbreviation": null,
+        "parent": "texapp",
+        "regex": [
+            "Texas Court of Appeals, 6(?:st|nd|rd|th) District(?: \\([^\\)]+\\))?",
+            "Sixth Court of Appeals(?:, [^,]+)?, Texas"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Tex. App.",
+        "court_url": "https://www.txcourts.gov/7thcoa/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Texas Court of Appeals, 7th District (Amarillo)",
+            "Seventh Court of Appeals, Amarillo, Texas"
+        ],
+        "id": "txctapp7",
+        "jurisdiction": "Tex. App.",
+        "level": "iac",
+        "location": "Texas",
+        "name": "Texas Seventh Court of Appeals",
+        "name_abbreviation": null,
+        "parent": "texapp",
+        "regex": [
+            "Texas Court of Appeals, 7(?:st|nd|rd|th) District(?: \\([^\\)]+\\))?",
+            "Seventh Court of Appeals(?:, [^,]+)?, Texas"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Tex. App.",
+        "court_url": "https://www.txcourts.gov/8thcoa/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Texas Court of Appeals, 8th District (El Paso)",
+            "Eighth Court of Appeals, El Paso, Texas"
+        ],
+        "id": "txctapp8",
+        "jurisdiction": "Tex. App.",
+        "level": "iac",
+        "location": "Texas",
+        "name": "Texas Eighth Court of Appeals",
+        "name_abbreviation": null,
+        "parent": "texapp",
+        "regex": [
+            "Texas Court of Appeals, 8(?:st|nd|rd|th) District(?: \\([^\\)]+\\))?",
+            "Eighth Court of Appeals(?:, [^,]+)?, Texas"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Tex. App.",
+        "court_url": "https://www.txcourts.gov/9thcoa/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Texas Court of Appeals, 9th District (Beaumont)",
+            "Ninth Court of Appeals, Beaumont, Texas"
+        ],
+        "id": "txctapp9",
+        "jurisdiction": "Tex. App.",
+        "level": "iac",
+        "location": "Texas",
+        "name": "Texas Ninth Court of Appeals",
+        "name_abbreviation": null,
+        "parent": "texapp",
+        "regex": [
+            "Texas Court of Appeals, 9(?:st|nd|rd|th) District(?: \\([^\\)]+\\))?",
+            "Ninth Court of Appeals(?:, [^,]+)?, Texas"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Tex. App.",
+        "court_url": "https://www.txcourts.gov/10thcoa/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Texas Court of Appeals, 10th District (Waco)",
+            "Tenth Court of Appeals, Waco, Texas"
+        ],
+        "id": "txctapp10",
+        "jurisdiction": "Tex. App.",
+        "level": "iac",
+        "location": "Texas",
+        "name": "Texas Tenth Court of Appeals",
+        "name_abbreviation": null,
+        "parent": "texapp",
+        "regex": [
+            "Texas Court of Appeals, 10(?:st|nd|rd|th) District(?: \\([^\\)]+\\))?",
+            "Tenth Court of Appeals(?:, [^,]+)?, Texas"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Tex. App.",
+        "court_url": "https://www.txcourts.gov/11thcoa/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Texas Court of Appeals, 11th District (Eastland)",
+            "Eleventh Court of Appeals, Eastland, Texas"
+        ],
+        "id": "txctapp11",
+        "jurisdiction": "Tex. App.",
+        "level": "iac",
+        "location": "Texas",
+        "name": "Texas Eleventh Court of Appeals",
+        "name_abbreviation": null,
+        "parent": "texapp",
+        "regex": [
+            "Texas Court of Appeals, 11(?:st|nd|rd|th) District(?: \\([^\\)]+\\))?",
+            "Eleventh Court of Appeals(?:, [^,]+)?, Texas"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Tex. App.",
+        "court_url": "https://www.txcourts.gov/12thcoa/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Texas Court of Appeals, 12th District (Tyler)",
+            "Twelfth Court of Appeals, Tyler, Texas"
+        ],
+        "id": "txctapp12",
+        "jurisdiction": "Tex. App.",
+        "level": "iac",
+        "location": "Texas",
+        "name": "Texas Twelfth Court of Appeals",
+        "name_abbreviation": null,
+        "parent": "texapp",
+        "regex": [
+            "Texas Court of Appeals, 12(?:st|nd|rd|th) District(?: \\([^\\)]+\\))?",
+            "Twelfth Court of Appeals(?:, [^,]+)?, Texas"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Tex. App.",
+        "court_url": "https://www.txcourts.gov/13thcoa/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Texas Court of Appeals, 13th District",
+            "Thirteenth Court of Appeals, Corpus Christi and Edinburg, Texas"
+        ],
+        "id": "txctapp13",
+        "jurisdiction": "Tex. App.",
+        "level": "iac",
+        "location": "Texas",
+        "name": "Texas Thirteenth Court of Appeals",
+        "name_abbreviation": null,
+        "parent": "texapp",
+        "regex": [
+            "Texas Court of Appeals, 13(?:st|nd|rd|th) District(?: \\([^\\)]+\\))?",
+            "Thirteenth Court of Appeals(?:, [^,]+)?, Texas"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Tex. App.",
+        "court_url": "https://www.txcourts.gov/14thcoa/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Texas Court of Appeals, 14th District (Houston)",
+            "Fourteenth Court of Appeals, Houston, Texas"
+        ],
+        "id": "txctapp14",
+        "jurisdiction": "Tex. App.",
+        "level": "iac",
+        "location": "Texas",
+        "name": "Texas Fourteenth Court of Appeals",
+        "name_abbreviation": null,
+        "parent": "texapp",
+        "regex": [
+            "Texas Court of Appeals, 14(?:st|nd|rd|th) District(?: \\([^\\)]+\\))?",
+            "Fourteenth Court of Appeals(?:, [^,]+)?, Texas"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Tex. App.",
+        "court_url": "https://www.txcourts.gov/15thcoa/",
+        "dates": [
+            {
+                "end": null,
+                "start": "2024-09-01"
+            }
+        ],
+        "examples": [
+            "Texas Court of Appeals, 15th District",
+            "Fifteenth Court of Appeals, Austin, Texas"
+        ],
+        "id": "txctapp15",
+        "jurisdiction": "Tex. App.",
+        "level": "iac",
+        "location": "Texas",
+        "name": "Texas Fifteenth Court of Appeals",
+        "name_abbreviation": null,
+        "parent": "texapp",
+        "regex": [
+            "Texas Court of Appeals, 15(?:st|nd|rd|th) District(?: \\([^\\)]+\\))?",
+            "Fifteenth Court of Appeals(?:, [^,]+)?, Texas"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
         "citation_string": "Tex. Bus. Ct.",
         "dates": [
             {
