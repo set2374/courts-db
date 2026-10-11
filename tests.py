@@ -34,6 +34,9 @@ class DataTest(CourtsDBTestCase):
             # West Virginia HB 2447 renamed the Court of Claims and clarified
             # that its commissioners are not judicial officers on July 7, 2017.
             "wvctcl": "2017-07-06",
+            # Louisiana's state judiciary superseded the Superior Court of the
+            # Territory of Orleans when statehood began on April 30, 1812.
+            "lasuperct": "1812-04-29",
         }
         by_id = {court["id"]: court for court in self.courts}
         for court_id, expected_end in expected_end_dates.items():
@@ -47,6 +50,10 @@ class DataTest(CourtsDBTestCase):
                         }
                     ],
                 )
+        self.assertEqual(
+            by_id["lasuperct"]["dates"],
+            [{"start": "1804-10-01", "end": "1812-04-29"}],
+        )
 
     def test_unicode_handling(self):
         """Do we handle regex matching with accents or other non-ascii?"""
